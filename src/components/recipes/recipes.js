@@ -99,7 +99,7 @@ return (
                          ))} 
                         </ul>
                     </div> */}
-                    <h4 className="fulllink"><a  target="_blank" href={modelinfo.recipe.url}>link to full article <img className="externallink" src="/icons8-external-link.svg" alt="" /></a></h4>
+                    <h4 className="fulllink"><Link to="route"  rel="noopener noreferrer" target="_blank" href={modelinfo.recipe.url}>link to full article <img className="externallink" src="/icons8-external-link.svg" alt=""/></Link></h4>
                 </div>
                 
                 <div className="recipe__footer">
